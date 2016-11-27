@@ -40,7 +40,7 @@ corRouter.route('/GetBearerToken')
 
     .get(function (req, res) {
 
-        var responseJson = { hello: "This is token API" };
+        var responseJson = { hello: "This is token API change for the git" };
         res.json(responseJson);
     });
 app.use('/Token', corRouter);
