@@ -19,7 +19,7 @@ corRouter.route('/GetBearerToken')
         var sts = new ClientOAuth2({
             clientId: request.clientid,
             clientSecret: request.clientsecret,
-            accessTokenUri: 'http://10.0.1.14:21000/identity/connect/token',
+            accessTokenUri: 'http://21000-dev/identity/connect/token',
             scopes: ['openid', 'profile', 'offline_access', 'UCALAccess']
         })
 
